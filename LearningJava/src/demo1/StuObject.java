@@ -22,6 +22,19 @@ public class StuObject {
 		stu1.display();
 		Student.assign();
 		Student.print();
+		
+		//Third Object
+		
+		System.out.println();
+		System.out.println("Student Details\n______________");
+		
+		Student stu2 = new Student();
+		stu2.assign(103, "John", 30, "Londong Road");
+		stu2.display();
+		Student.assign();
+		Student.print();
+		
+		
 
 	}
 
